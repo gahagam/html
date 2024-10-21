@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(206, 239, 235);
+}
+
+.content {
+  display: flex;
+  margin: 6%;
+}
+
+.content-left {
+  background-color: bisque;
+  margin-right: 5%;
+  padding: 3%;
+  border-radius: 10px 14px;
+}
+
+.content-right {
+  margin-left: 3%;
+  border-radius: 10px 14px;
+  background-color: bisque;
+}
+
+.img {
+  height: 100%;
+  border-radius: 10px 14px;
+}
+
+#title {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #df9797;
+  border-radius: 10px 14px;
+  margin-inline: 10%;
+}
