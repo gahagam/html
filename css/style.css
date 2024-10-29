@@ -33,3 +33,142 @@ body {
   border-radius: 10px 14px;
   margin-inline: 10%;
 }
+
+.header {
+  text-align: right;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: bisque;
+  border-radius: 8px 12px;
+  margin-inline: 6%;
+}
+
+#cap {
+  text-align: center;
+}
+
+.label {
+  color: black;
+}
+
+.container {
+  border-radius: 10px 14px;
+  margin-inline: 6%;
+  background-color: bisque;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  margin: auto;
+  display: flex;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+.dog {
+  width: 200px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-width: medium;
+}
+
+.container-2 {
+  border-radius: 10px 14px;
+  margin-inline: 6%;
+  background-color: bisque;
+
+}
+
+.block-2 {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  margin: auto;
+  display: flex;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+.container-3 {
+  background-color: bisque;
+  border-radius: 10px 14px;
+  margin-inline: 6%;
+  border-style: solid;
+  border-width: medium;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.block-3 {
+  background-color: #df9797;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+.container-4 {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+
+}
+
+.red {
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  left: -100px;
+}
+
+.blue {
+  border-style: solid;
+  border-width: medium;
+  border-color: blue;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  left: -10px;
+}
+
+.green {
+  border-style: solid;
+  border-width: medium;
+  border-color: green;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  top: -40px;
+  left: 80px;
+}
+
+.cat {
+  width: 100px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-width: medium;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
