@@ -66,7 +66,53 @@
                 <td>ФИИТ</td>
             </tr>
         </table>
-    </div>
+        <div>
+            <h2 id="cap">Добавить студента</h2>
+            <form id="form">
+                <label for="fio">ФИО:</label>
+                <input type="text" id="fio" name="fio">
+                <label for="group">Номер группы:</label>
+                <input type="text" id="group" name="group">
+                <label for="gender">Пол:</label>
+                <select id="gender" name="gender">
+                    <option value="Мужской">Мужской</option>
+                    <option value="Женский">Женский</option>
+                </select>
+                <label for="age">Возраст:</label>
+                <input type="number" id="age" name="age">
+                <label for="spec">Направление:</label>
+                <input type="text" id="spec" name="spec">
+                <br>
+                <input type="submit" value="Добавить" style="background-color: greenyellow;">
+            </form>
+        </div>
+
+        <script>
+            const form = document.querySelector('form');
+            const table = document.querySelector('table');
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                const newRow = table.insertRow();
+
+                const fio = document.getElementById('fio').value;
+                const group = document.getElementById('group').value;
+                const gender = document.getElementById('gender').value;
+                const age = document.getElementById('age').value;
+                const spec = document.getElementById('spec').value;
+
+                newRow.insertCell().textContent = table.rows.length - 1;
+                newRow.insertCell().textContent = fio;
+                newRow.insertCell().textContent = group;
+                newRow.insertCell().textContent = gender;
+                newRow.insertCell().textContent = age;
+                newRow.insertCell().textContent = spec;
+
+                form.reset();
+            });
+        </script>
+
 </body>
 
 </html>
